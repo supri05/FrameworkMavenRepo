@@ -13,4 +13,9 @@ public void createContactTest()
 	{
 		System.out.println("executr create contact test");
 	}
+	@Test(groups = "regressionTest")
+	public void deleteContactTest()
+	{
+		System.out.println("executr create contact test");
+	}
 }
