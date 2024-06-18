@@ -22,7 +22,7 @@ public void createContactTest()
 	{
 		System.out.println("execute modify");
 	}
-	@Test(groups = "regressionTest")
+	@Test(groups = "smoke")
 	public void deleteContactTest()
 	{
 		System.out.println("executr delete contact test");
