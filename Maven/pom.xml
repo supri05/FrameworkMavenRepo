@@ -24,7 +24,7 @@
 
 
   </dependencies>
-   <profiles>
+  <profiles>
 	<profile>
 	<id>ST</id>
 	<build>

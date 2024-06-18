@@ -3,7 +3,7 @@ package package2;
 import org.testng.annotations.Test;
 
 public class OrgTest {
-	@Test(groups = "smoke")
+	@Test(groups = "regressionTest")
 public void createOrgTest()
 {
 	String browser=System.getProperty("browser");
@@ -16,9 +16,10 @@ public void createOrgTest()
 	System.out.println(password);
 	System.out.println("executr create contact test");
 }
-	@Test(groups = "smoke")	
+	@Test(groups = "regressionTest")	
 	public void modifyOrgsTest()
 	{
-		System.out.println("executr create contact test");
+		
+		System.out.println("executr modify contact test");
 	}
 }
